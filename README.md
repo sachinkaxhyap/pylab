@@ -47,5 +47,5 @@ This repository contains practical Python codes for various programming concepts
     - Description: Python code to build a REST API for product operations.
 
 12. **Ajax-Enabled Web Application for Product**
-    - File: `12_pass`
+    - File: `pass`
     - Description: Python code to build an Ajax-enabled web application for product interactions.
