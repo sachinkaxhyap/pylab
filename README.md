@@ -27,7 +27,7 @@ This repository contains practical Python codes for various programming concepts
    - Description: Python code to find a student from a given list using a class.
 
 7. **Inheritance - Employee to Student**
-   - File: `pass`
+   - File: `07_inherit_emp_stu.py`
    - Description: Python code illustrating inheritance, where the Student class inherits from the Employee class.
 
 8. **Simple GUI Calculator**
