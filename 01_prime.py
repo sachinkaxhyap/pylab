@@ -39,4 +39,6 @@ def isPrime(n):
   else:
     return True
   
-main()
+if __name__ == '__main__':
+  main()
+  

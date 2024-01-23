@@ -29,6 +29,7 @@ print(calc_lcm(l[0], l[1]))
 
 
 from math import gcd, lcm
+
 def main():
   numbers_list = [80, 56, 8, 16,]
   GCD = calculate_gcd(numbers_list)
@@ -48,5 +49,5 @@ def calculate_lcm(numbers):
     result = lcm(result, number)
   return result
 
-main()
-
+if __name__ == '__main__':
+  main()

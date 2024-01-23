@@ -1,5 +1,24 @@
 #  Write a python code to find student from a given list using class
 
+def main():
+  students = [
+  student("Sachin1", 101),
+  student("Sachin2", 102),
+  student("Sachin3", 103),
+  student("Sachin4", 104),
+  student("Sachin5", 105),
+  student("Sachin6", 106),
+  student("Sachin7", 107),
+  student("Sachin8", 108),
+  student("Sachin9", 109),
+  student("Sachin10", 110)
+  ]
+
+  argu = input("Enter Name or ID to find a student: ")
+  for student in students:
+  student.findStudent(argu)
+
+
 class student():
   def __init__(self, name, ID):
     self.name = name
@@ -12,20 +31,5 @@ class student():
     if argu == self.name or argu == str(self.ID):
       student.displayInfo()
 
-students = [
-  student("Sachin1", 101),
-  student("Sachin2", 102),
-  student("Sachin3", 103),
-  student("Sachin4", 104),
-  student("Sachin5", 105),
-  student("Sachin6", 106),
-  student("Sachin7", 107),
-  student("Sachin8", 108),
-  student("Sachin9", 109),
-  student("Sachin10", 110)
-]
-
-argu = input("Enter Name or ID to find a student: ")
-for student in students:
-  student.findStudent(argu)
-
+if __name__ == '__main__':
+  main()

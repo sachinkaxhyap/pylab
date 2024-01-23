@@ -20,7 +20,9 @@ def stddev(nums, mean_):
     
   return x ** 0.5
 
-main()
+if __name__ == '__main__':
+  main()
+  
 
 #stddev formula -->
   #((n1-mean²)+...+(nN-mean²))/(len(numbers) OR count -1)
